@@ -1,0 +1,17 @@
+{
+  "name": "campushub",
+  "version": "1.0.0",
+  "description": "CampusHub - venue booking system (Node.js, Express, MySQL)",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "db:sql": "node scripts/make-schema.js",
+    "test": "node tests/run.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  },
+  "license": "UNLICENSED"
+}
